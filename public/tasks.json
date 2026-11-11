@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Приготувати їсти", "completed": false },
+  { "id": 2, "title": "Помити посуд", "completed": false },
+  { "id": 3, "title": "Поприбирати", "completed": false }
+]

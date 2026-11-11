@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-title {
+  flex: 1;
+}
+
+.task-title.done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.edit-input {
+  flex: 1;
+}
+
+.stats {
+  color: #555;
+}
+
+.empty {
+  color: #999;
+}
+
+.error {
+  color: #b00020;
+}
